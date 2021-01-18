@@ -8,3 +8,41 @@
 body{
   font-family: 'Rubik Mono One', sans-serif;
 }
+/* NAVBAR */
+header{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
+  padding: 5px;
+  width: 100%;
+  text-align: right;
+  background-color: lightgrey;
+}
+nav li{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+/* /NAVBAR */
+/* CORPO DELLA PAGINA */
+section{
+  height: 100vh;
+}
+#section-1{
+  background-color: red;
+}
+#section-2{
+  background-color: green;
+}
+#section-3{
+  background-color: yellow;
+}
+/* /CORPO DELLA PAGINA */
