@@ -49,6 +49,13 @@ section{
   background-color: yellow;
   color: green;
 }
+.box{
+  display: inline-block;
+  width: 50%;
+}
+.box img{
+  width: 100%;
+}
 .centered {
   text-align: center;
   position: absolute;
@@ -56,5 +63,4 @@ section{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 /* /CORPO DELLA PAGINA */
